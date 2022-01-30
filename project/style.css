@@ -21,20 +21,99 @@ body {
   
   .footer {
     height: 72px;
-    background: #eee;
-    color: darkmagenta;
+    background: #1F2937;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     flex: 1;
     max-height: 72px;
+    height:100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-weight: bold;
   }
   
 .top {
     display:flex;
     flex: 1;
+    background: #1F2937;
+    padding-left:90px;
+    padding-right: 90px;
+    justify-content: center;
 }
 
+.heromain {
+    font-size: 48px; 
+    font-weight: bolder;
+    color: #F9FAF8;
+    padding-bottom: 10px;
+
+}
+
+.herosecond {
+    font-size: 18px;
+    color: #E5E7Eb;    
+    padding-bottom: 10px;
+}
+
+.call {
+    font-size: 22px;
+    color: #E5E7Eb;
+    font-weight: bold;
+}
+
+
+.topimage {
+    background-color: grey;
+    height: 250px;
+    width: auto;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    border: 2px solid white;
+}
+
+.topButton {
+    background-color: #3882F6;
+    border: none;
+    color: #E5E7Eb; 
+    height: 30px;
+    width: 100px;
+    border-radius: 8px;
+}
+
+.midSection{
+    display: flex;
+    flex-direction: column;
+    flex: 1;;
+    align-items: center;
+    text-align: center;
+
+}
+.card-container { 
+    display: flex;
+}
+.card {
+    max-width: 150px;
+    margin: 15px;
+
+}
+
+img {
+    border-radius: 20px;
+    height: 150px;
+    width: auto;
+}
+.card-title{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding-bottom: 20px;
+}
+
+.caption {
+    color: gray;
+}
 
 
   a {
@@ -51,6 +130,49 @@ body {
     color: #E5E7Eb;
     gap: 20px;
     font-weight: normal;
+}
 
+.quote-section{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: #E5E7EB;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 
+}
+.quote-name{
+    text-align: right;
+}
+
+.action-section{
+
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-box{
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.bottom-button {
+    height: 30px;
+    width: 100px;
+    border-radius: 8px;
+    margin-left: 20px;
+    border-color: white;
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
 }
